@@ -15,13 +15,13 @@ public class TesteConfig {
     @Autowired
     private DBService dbService;
 
-    @Value("${spring.jpa.hibernate.ddl-auto}")
-    private String ddl;
+    // @Value("${spring.jpa.hibernate.ddl-auto}")
+    // private String ddl;
 
     @Bean
     public void instanciaDB() {
-        if (ddl.equals("create")) {
+        // if (ddl.equals("create")) {
             this.dbService.instanciaDB();
-        }
+        // }
     }
 }
