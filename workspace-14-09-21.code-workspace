@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "postgres-os-project",
+				"database": "os",
+				"username": "postgres",
+				"password": "46773417"
+			}
+		],
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
